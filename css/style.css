@@ -1,0 +1,63 @@
+
+.container{
+    margin: 0 auto;
+    width: 1320px;
+}
+.games{
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    justify-content: center;
+   
+
+}
+
+
+.playerTwoInput{
+    display: none;
+}
+.playerThreeInput{
+    display: none;
+}
+.playerFourInput{
+    display: none;
+}
+.guessButtonTwo{
+    display: none;
+    cursor:pointer;
+}
+.guessButtonThree{
+    display: none;
+    cursor:pointer;
+}
+.guessButtonFour{
+    display: none;
+    cursor:pointer;
+}
+h2{
+    display: none;
+}
+.startButton{
+    cursor:pointer;
+}
+.games input{
+ font-size: 30px;
+ padding: 10px;
+ border-radius: 10px;
+ -webkit-border-radius: 10px;
+ -moz-border-radius: 10px;
+ -ms-border-radius: 10px;
+ -o-border-radius: 10px;
+}
+
+.games button{
+    font-size: 30px;
+    padding: 10px;
+    background-color: blue;
+    color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
